@@ -1,0 +1,36 @@
+<shortcuts>
+	<skipIfNotSupported/>
+	<defaultCurrentUser/>
+	<programGroup defaultName="CobaltCash" location="startMenu"/>
+	<shortcut
+		name="CobaltCash Server"
+		target="$INSTALL_PATH\CobaltCash.exe"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Start CobaltCash server"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no"
+		runAsAdministrator="true">
+	</shortcut>	
+	<shortcut
+		name="CobaltCash Wallet"
+		target="http://localhost:6001/index.html"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Launch CobaltCash wallet in browser"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no">
+	</shortcut>	
+</shortcuts>
